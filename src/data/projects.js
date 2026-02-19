@@ -19,15 +19,15 @@ export const projects = [
     featured: true,
     images: [
       {
-        src: "/images/slope_analysis/1_map_city_level.jpg",
+        src: `${import.meta.env.BASE_URL}images/slope_analysis/1_map_city_level.jpg`,
         caption: "city-level slope distribution map.",
       },
       {
-        src: "/images/slope_analysis/2_map_zone_level_in_res.jpg",
+        src: `${import.meta.env.BASE_URL}images/slope_analysis/2_map_zone_level_in_res.jpg`,
         caption: "zone-level steep slope distribution map in residential zone",
       },
       {
-        src: "/images/slope_analysis/3_map_parcel_level_all parcels_10plus_steep_slope.jpg",
+        src: `${import.meta.env.BASE_URL}images/slope_analysis/3_map_parcel_level_all parcels_10plus_steep_slope.jpg`,
         caption: "parcel-level 10plus steep slope proportion map",
       },
     ],
@@ -155,19 +155,19 @@ export const projects = [
     featured: true,
     images: [
       {
-        src: "/images/flood_analysis/1_map_10y_inu_area.jpg",
+        src: `${import.meta.env.BASE_URL}images/flood_analysis/1_map_10y_inu_area.jpg`,
         caption: "Flood inundation map (10-year rainfall, 1-hour duration).",
       },
       {
-        src: "/images/flood_analysis/2_map_20y_inu_area.jpg",
+        src: `${import.meta.env.BASE_URL}images/flood_analysis/2_map_20y_inu_area.jpg`,
         caption: "Flood inundation map (20-year rainfall, 1-hour duration).",
       },
       {
-        src: "/images/flood_analysis/3_map_50y_inu_area.jpg",
+        src: `${import.meta.env.BASE_URL}images/flood_analysis/3_map_50y_inu_area.jpg`,
         caption: "Flood inundation map (50-year rainfall, 1-hour duration).",
       },
       {
-        src: "/images/flood_analysis/4_chart_area_depth_comparison.png",
+        src: `${import.meta.env.BASE_URL}images/flood_analysis/4_chart_area_depth_comparison.png`,
         caption:
           "Comparison of total inundation area and average flood depth under different smoothing methods.",
       },
@@ -281,17 +281,17 @@ export const projects = [
     featured: false,
     images: [
       {
-        src: "/images/accessibility_analysis/1_chart_buffer_vs_network_area.png",
+        src: `${import.meta.env.BASE_URL}images/accessibility_analysis/1_chart_buffer_vs_network_area.png`,
         caption:
           "Comparison of accessible area between the Buffer and Network methods.",
       },
       {
-        src: "/images/accessibility_analysis/2_map_buffer_method.jpg",
+        src: `${import.meta.env.BASE_URL}images/accessibility_analysis/2_map_buffer_method.jpg`,
         caption:
           "Spatial distribution of accessibility results using the Buffer Method.",
       },
       {
-        src: "/images/accessibility_analysis/3_map_network_method.jpg",
+        src: `${import.meta.env.BASE_URL}images/accessibility_analysis/3_map_network_method.jpg`,
         caption:
           "Spatial distribution of accessibility results using the Network Method.",
       },
@@ -396,19 +396,19 @@ export const projects = [
     featured: false,
     images: [
       {
-        src: "/images/bus_analysis/1_map_300buffer.jpg",
+        src: `${import.meta.env.BASE_URL}images/bus_analysis/1_map_300buffer.jpg`,
         caption: "Areas without bus service (300 m buffer scenario).",
       },
       {
-        src: "/images/bus_analysis/2_map_400buffer.jpg",
+        src: `${import.meta.env.BASE_URL}images/bus_analysis/2_map_400buffer.jpg`,
         caption: "Areas without bus service (400 m buffer scenario).",
       },
       {
-        src: "/images/bus_analysis/3_map_500buffer.jpg",
+        src: `${import.meta.env.BASE_URL}images/bus_analysis/3_map_500buffer.jpg`,
         caption: "Areas without bus service (500 m buffer scenario).",
       },
       {
-        src: "/images/bus_analysis/4_chart_uncovered_area_table.png",
+        src: `${import.meta.env.BASE_URL}images/bus_analysis/4_chart_uncovered_area_table.png`,
         caption:
           "Uncovered area comparison across buffer scenarios (total city vs key zones).",
       },
