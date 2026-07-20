@@ -10,7 +10,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3">
         <NavLink to="/" className="font-semibold tracking-tight text-slate-900">
-          Felix Zhang · GIS Portfolio
+          Felix Zhang · Data Engineering & Geospatial Portfolio
         </NavLink>
 
         <nav className="flex items-center gap-5">
