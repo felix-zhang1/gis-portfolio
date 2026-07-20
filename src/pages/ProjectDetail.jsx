@@ -43,6 +43,16 @@ export default function ProjectDetail() {
           >
             View on GitHub
           </a>
+          {project.liveUrl ? (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-xl border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 transition"
+            >
+              View Live Demo
+            </a>
+          ) : null}
         </div>
       </header>
 

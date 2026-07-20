@@ -1,5 +1,130 @@
 export const projects = [
-  // project_1: slope analysis
+  // project_1: find school for children
+  {
+    slug: "find-a-school-for-children",
+    title: "Find a School for Children",
+    repoUrl: "https://github.com/felix-zhang1/find_schools_for_children",
+    liveUrl: "https://findschool.felixzhang.site",
+
+    summary:
+      "An end-to-end data engineering and geospatial web application that integrates school, enrolment-zone, demographic and rental datasets to help families explore school and housing options across selected New Zealand cities.",
+
+    tags: [
+      "Data Engineering",
+      "ETL",
+      "PostGIS",
+      "FastAPI",
+      "Web Mapping",
+      "Azure",
+    ],
+
+    highlights: [
+      "Integrated school, enrolment-zone, SA2 boundary and rental datasets from multiple public sources",
+      "Built Python ETL workflows to clean, validate and transform structured and geospatial data",
+      "Used PostgreSQL/PostGIS to model spatial relationships and calculate 8,303 enrolment-zone and SA2 overlaps",
+      "Applied area-weighted calculations to generate enrolment-zone-level rental statistics",
+      "Developed FastAPI services and an interactive React and Leaflet web application",
+      "Deployed the application and supporting services on Microsoft Azure",
+    ],
+
+    tools: [
+      "Python",
+      "Pandas",
+      "GeoPandas",
+      "PostgreSQL",
+      "PostGIS",
+      "FastAPI",
+      "React",
+      "Leaflet",
+      "Microsoft Azure",
+      "GitHub Actions",
+    ],
+
+    featured: true,
+
+    images: [
+      {
+        src: `${import.meta.env.BASE_URL}images/find_school/1_school_map.png`,
+        caption:
+          "Interactive map for exploring schools, enrolment zones and rental-location options.",
+      },
+      {
+        src: `${import.meta.env.BASE_URL}images/find_school/2_school_detail.png`,
+        caption:
+          "School and enrolment-zone details presented through the web application.",
+      },
+    ],
+
+    sections: {
+      problem: [
+        {
+          type: "text",
+          value:
+            "Families moving to a new city often need to compare schools, enrolment zones and rental locations across multiple disconnected data sources. This project brings those datasets together into one searchable application.",
+        },
+      ],
+
+      data: [
+        {
+          type: "list",
+          items: [
+            "School locations and attributes",
+            "School enrolment-zone boundaries",
+            "Statistical Area 2 boundaries",
+            "City boundaries",
+            "Rental property and rental-price datasets",
+          ],
+        },
+      ],
+
+      method: [
+        {
+          type: "text",
+          value:
+            "The project combined data engineering, spatial data modelling and web application development:",
+        },
+        {
+          type: "list",
+          items: [
+            "Extracted and cleaned school, enrolment-zone, SA2 and rental datasets using Python",
+            "Standardised schemas, spatial reference systems and data formats",
+            "Loaded structured and spatial data into PostgreSQL/PostGIS",
+            "Calculated spatial overlaps between enrolment zones and SA2 areas",
+            "Applied area-weighted calculations to estimate rental statistics for each enrolment zone",
+            "Created FastAPI endpoints to serve school, zone and rental data",
+            "Built an interactive React and Leaflet frontend",
+            "Deployed the application on Microsoft Azure",
+          ],
+        },
+      ],
+
+      results: [
+        {
+          type: "list",
+          items: [
+            "Covered 5 New Zealand cities",
+            "Integrated 798 schools and 566 enrolment-zone polygons",
+            "Processed 8,303 enrolment-zone and SA2 spatial overlaps",
+            "Produced enrolment-zone-level rental statistics",
+            "Delivered the results through a publicly accessible interactive application",
+          ],
+        },
+      ],
+
+      limitations: [
+        {
+          type: "list",
+          items: [
+            "Rental listings and school information may change over time",
+            "Area-weighted rental estimates assume values are distributed consistently within each SA2",
+            "The current application covers selected cities rather than all of New Zealand",
+            "Future work could automate source-data refreshes and introduce scheduled pipeline monitoring",
+          ],
+        },
+      ],
+    },
+  },
+  // project_2: slope analysis
   {
     slug: "slope-analysis-hamilton",
     title: "Parcel-level Slope Analysis (Hamilton)",
@@ -134,7 +259,7 @@ export const projects = [
     },
   },
 
-  // project_2: flood prediction
+  // project_3: flood prediction
   {
     slug: "flood-prediction-hamilton",
     title: "Hamilton City Flood Inundation Prediction",
@@ -254,7 +379,7 @@ export const projects = [
     },
   },
 
-  // project_3: facility accessibility
+  // project_4: facility accessibility
   {
     slug: "facility-accessibility-hamilton",
     title: "Hamilton Public Facilities Accessibility Analysis",
@@ -375,7 +500,7 @@ export const projects = [
     },
   },
 
-  // project_4: bus service
+  // project_5: bus service
   {
     slug: "bus-service-analysis-hamilton",
     title: "Hamilton City Bus Service Coverage Analysis",
