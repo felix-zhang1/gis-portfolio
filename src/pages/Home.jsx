@@ -11,21 +11,23 @@ export default function Home() {
       <section className="rounded-3xl border border-slate-200 bg-gradient-to-br from-indigo-50/40 to-white p-10 shadow-sm">
         <div className="max-w-3xl space-y-6">
           <h1 className="text-3xl font-semibold tracking-tight">
-            GIS Developer · Spatial Analyst
+            Data Engineer · Geospatial Data Specialist
           </h1>
 
           <p className="text-slate-600 leading-7">
-            I build reproducible geospatial workflows using ArcGIS Pro and
-            Python. My focus is on automation, spatial analysis, and translating
-            complex spatial problems into clear technical outputs.
+            I build reliable, automated data pipelines using Python, SQL, Azure,
+            Snowflake and dbt. With a strong background in geospatial data and
+            PostGIS, I transform complex spatial and business datasets into
+            trusted, analytics-ready data products.
           </p>
 
           <div className="flex flex-wrap gap-3 text-sm">
             {[
-              "ArcPy Automation",
-              "Hydrology Analysis",
-              "Network Analysis",
-              "Spatial Modeling",
+              "Python & SQL",
+              "ETL / ELT Pipelines",
+              "Snowflake & dbt",
+              "Azure Data Engineering",
+              "PostGIS & Geospatial Data",
             ].map((item) => (
               <span
                 key={item}

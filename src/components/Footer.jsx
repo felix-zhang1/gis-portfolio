@@ -6,7 +6,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Felix Zhang ·
           <span className="font-medium text-slate-800">
             {" "}
-            GIS Developer / Spatial Analyst
+            Data Engineering & Geospatial Portfolio
           </span>
         </span>
 
